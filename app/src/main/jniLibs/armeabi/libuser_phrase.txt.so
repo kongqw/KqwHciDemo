@@ -1,0 +1,165 @@
+{
+	"pat_call_with_name": {
+		"phrase": ["[tag_call][tag_phone][tag_to][*]",
+		"[tag_call][tag_to][*]",
+		"[tag_to][*][tag_call]"]
+	},
+	"pat_call_with_name_and_type": {
+		"phrase": ["[tag_call][*](的|)[tag_phone]"]
+	},
+	"pat_call_with_number": {
+		"phrase": ["[tag_call]([tag_to]|)[digit]"]
+	},
+	"pat_call_again": {
+		"phrase": ["[tag_again][tag_call]"]
+	},
+	"pat_call_back": {
+		"phrase": ["[tag_back][tag_call][tag_missed](的|)([tag_phone]|来电)"]
+	},
+	"pat_query_number_with_name": {
+		"phrase": ["[tag_query][*](的|)([tag_phone]|[tag_number])"]
+	},
+	"pat_query_phonebook": {
+		"phrase": ["[tag_query][tag_phonebook]",
+		"[tag_open][tag_phonebook]"]
+	},
+	"pat_query_dialed_numbers": {
+		"phrase": ["[tag_query][tag_dialed_numbers]"]
+	},
+	"pat_query_connected_phone": {
+		"phrase": ["[tag_query][tag_connected_phone]"]
+	},
+	"pat_query_missed_calls": {
+		"phrase": ["[tag_query][tag_missed_calls]"]
+	},
+	"pat_search_music_song": {
+		"phrase": ["[tag_play][tag_song]"]
+	},
+	"pat_search_music_singer": {
+		"phrase": ["[tag_play][tag_singer](的歌)(曲|)"]
+	},
+	"pat_search_music_singer_and_song": {
+		"phrase": ["[tag_play][tag_singer](的|)[tag_song]"]
+	},
+	"pat_play_music": {
+		"phrase": ["[tag_playmusic]"]
+	},
+	"pat_search_song_type_or_album": {
+		"phrase": ["[tag_play](1首|一首|)[tag_songtype](的歌|音乐)(曲|)",
+		"[tag_play](1首|一首|)[tag_album][tag_song](的歌|音乐)(曲|)"]
+	},
+	"pat_model_music_order": {
+		"phrase": ["[tag_music_order]"]
+	},
+	"pat_model_music_loop": {
+		"phrase": ["[tag_music_loop]"]
+	},
+	"pat_model_singlecycle": {
+		"phrase": ["[tag_music_singlecycle]"]
+	},
+	"pat_FM_channel_name": {
+		"phrase": ["[tag_fm][tag_fm_channel]"]
+	},
+	"pat_FM_channel": {
+		"phrase": ["[tag_fm][digit]"]
+	},
+	"pat_sound_higher": {
+		"phrase": ["[tag_sound][tag_soundadd]",
+		"[tag_sound][tag_soundadd][tag_to][digit]"]
+	},
+	"pat_sound_lower": {
+		"phrase": ["[tag_sound][tag_soundreduce]",
+		"[tag_sound][tag_soundreduce][tag_to][digit]",
+		"[tag_soundmute]"]
+	},
+	"pat_play": {
+		"phrase": ["[tag_play]"]
+	},
+	"pat_pause": {
+		"phrase": ["[tag_pause]"]
+	},
+	"pat_next": {
+		"phrase": ["([tag_play]|切换|)[tag_next]"]
+	},
+	"pat_previous": {
+		"phrase": ["([tag_play]|切换|)[tag_previous]"]
+	},
+	"pat_open_app": {
+		"phrase": ["[tag_open][tag_app]"]
+	},
+	"pat_close_app": {
+		"phrase": ["[tag_close][tag_app]"]
+	},
+	"pat_query_help": {
+		"phrase": ["[tag_helptype](有什么用|有什么功能|怎么用|如何用)"]
+	},
+	"pat_open_airconditioner": {
+		"phrase": ["[tag_open](空调)"]
+	},
+	"pat_close_airconditioner": {
+		"phrase": ["[tag_close](空调)"]
+	},
+	"pat_open_airconditioner_function": {
+		"phrase": ["([tag_open]|)[tag_airconditioner_function]"]
+	},
+	"pat_close_airconditioner_function": {
+		"phrase": ["([tag_close])[tag_airconditioner_function]"]
+	},
+	"pat_temperature_highter": {
+		"phrase": ["(温度)[tag_soundadd]",
+		"有点冷|有点儿冷"]
+	},
+	"pat_temperature_lower": {
+		"phrase": ["(温度)[tag_soundreduce]",
+		"有点热|有点儿热"]
+	},
+	"pat_wind_highter": {
+		"phrase": ["(风|风力)[tag_soundadd]"]
+	},
+	"pat_wind_lower": {
+		"phrase": ["(风|风力)[tag_soundreduce]"]
+	},
+	"pat_wind_direction_up": {
+		"phrase": ["(风|风力|暖风|冷风|)[tag_wind_direction_up]"]
+	},
+	"pat_wind_direction_down": {
+		"phrase": ["(风|风力|暖风|冷风|)[tag_wind_direction_down]"]
+	},
+	"pat_wind_direction_window": {
+		"phrase": ["(风|风力|暖风|冷风|)[tag_wind_direction_window]"]
+	},
+	"pat_query_position": {
+		"phrase": ["([tag_query]|)[tag_query_position]"]
+	},
+	"pat_query_poi": {
+		"phrase": ["([tag_query]|)[tag_poi]"]
+	},
+	"pat_to_fixplace": {
+		"phrase": ["[tag_to][tag_fixedplace]"]
+	},
+	"pat_to_place": {
+		"phrase": ["[tag_to][tag_place]"]
+	},
+	"pat_place_to_place": {
+		"phrase": ["[tag_place][tag_to][tag_place]"]
+	},
+	"pat_map_setup": {
+		"phrase": ["[tag_mapsetup]"]
+	},
+	"pat_map_along_facilities": {
+		"phrase": ["(沿途)(的|)[tag_facilities]"]
+	},
+	"pat_map_nearby_facilities": {
+		"phrase": ["(附近|周围|周边)(的|)[tag_facilities]"]
+	},
+	"pat_map_traffic": {
+		"phrase": ["[tag_road](附近|周围|周边)(的|)[tag_traffic]",
+		"[tag_road](由)[tag_road_direction](向|到|至)[tag_road_direction](方向|)[tag_traffic]"]
+	},
+	"pat_music_singleplay": {
+		"phrase": ["[tag_music_singleplay]"]
+	},
+	"pat_music_shuffle": {
+		"phrase": ["[tag_music_shuffle]"]
+	}
+}

@@ -1,0 +1,226 @@
+{
+	"tag_hangsheng": {
+		"lexicon": ["航盛"]
+	},
+	"tag_singer": {
+		"lexicon": ["刘德华"]
+	},
+	"tag_song": {
+		"lexicon": ["忘情水",
+		"今天的新闻"]
+	},
+	"tag_playmusic": {
+		"lexicon": ["听音乐",
+		"我想听",
+		"我要听",
+		"放首歌",
+		"播放歌曲",
+		"帮我播放歌曲",
+		"帮我播放音乐",
+		"我想听音乐"]
+	},
+	"tag_songtype": {
+		"lexicon": ["摇滚",
+		"安静"]
+	},
+	"tag_fm": {
+		"lexicon": ["调频",
+		"FM",
+		"收听"]
+	},
+	"tag_fm_channel": {
+		"lexicon": ["安徽音乐广播"]
+	},
+	"tag_music_singleplay": {
+		"lexicon": ["单曲播放"]
+	},
+	"tag_music_shuffle": {
+		"lexicon": ["随机播放",
+		"随机播放音乐",
+		"随机播放歌曲",
+		"随机",
+		"随机播放本地音乐",
+		"随便听一首网络歌曲",
+		"随便听一首",
+		"随机播放一首",
+		"随机播放一首音乐",
+		"随机播放一首歌曲",
+		"随机播放一首曲子",
+		"随机播放一首歌",
+		"随便听听歌",
+		"随便听听",
+		"随便播放一首",
+		"随便播放一首音乐",
+		"随便播放一首歌曲",
+		"随便播放一首曲子",
+		"随便播放一首歌",
+		"随即播放",
+		"随记播放"]
+	},
+	"tag_music_order": {
+		"lexicon": ["顺序播放",
+		"顺序播放音乐",
+		"顺序播放歌曲"]
+	},
+	"tag_music_loop": {
+		"lexicon": ["循环播放",
+		"循环播放音乐",
+		"循环播放歌曲",
+		"循环"]
+	},
+	"tag_music_singlecycle": {
+		"lexicon": ["单曲循环",
+		"单曲循环音乐",
+		"单曲循环播放音乐",
+		"单曲循环歌曲",
+		"单曲循环播放歌曲"]
+	},
+	"tag_pause": {
+		"lexicon": ["暂停",
+		"稍停",
+		"停",
+		"暂停播放",
+		"暂停放歌"]
+	},
+	"tag_sound": {
+		"lexicon": ["声音",
+		"音量"]
+	},
+	"tag_soundadd": {
+		"lexicon": ["增加",
+		"有点小",
+		"有点小儿",
+		"太低",
+		"太小",
+		"太少",
+		"有点儿小",
+		"有点儿低",
+		"增大",
+		"高一点"]
+	},
+	"tag_soundreduce": {
+		"lexicon": ["减小",
+		"减少",
+		"有点大",
+		"有点大儿",
+		"太大",
+		"太高",
+		"有点高",
+		"有点儿大",
+		"有点儿高",
+		"低一点"]
+	},
+	"tag_soundmute": {
+		"lexicon": ["静音"]
+	},
+	"tag_next": {
+		"lexicon": ["下一曲",
+		"下一台",
+		"下一首"]
+	},
+	"tag_previous": {
+		"lexicon": ["上一曲",
+		"上一台",
+		"上一首",
+		"换个台",
+		"换首歌曲"]
+	},
+	"tag_open": {
+		"lexicon": ["打开",
+		"播放",
+		"开启"]
+	},
+	"tag_close": {
+		"lexicon": ["关闭",
+		"关上"]
+	},
+	"tag_app": {
+		"lexicon": ["USB",
+		"音乐",
+		"USB音乐"]
+	},
+	"tag_helptype": {
+		"lexicon": ["收音机",
+		"音乐收藏",
+		"个性化记忆",
+		"语音识别",
+		"手机连接"]
+	},
+	"tag_airconditioner_function": {
+		"lexicon": ["空调制冷",
+		"冷风",
+		"暖风"]
+	},
+	"tag_wind_direction_up": {
+		"lexicon": [
+		"吹脸"]
+	},
+	"tag_wind_direction_down": {
+		"lexicon": ["吹脚"]
+	},
+	"tag_wind_direction_window": {
+		"lexicon": [
+		"除霜"]
+	},
+	"tag_poi": {
+		"lexicon": ["新街口地铁站"]
+	},
+	"tag_fixedplace": {
+		"lexicon": ["家",
+		"公司"]
+	},
+	"tag_place": {
+		"lexicon": ["扬州市政府",
+		"扬州中学",
+		"瘦西湖风景区"]
+	},
+	"tag_facilities": {
+		"lexicon": ["加油站"]
+	},
+	"tag_traffic": {
+		"lexicon": ["堵不堵",
+		"路况"]
+	},
+	"tag_mapsetup": {
+		"lexicon": ["3D视图",
+		"2D视图",
+		"地图放大",
+		"放大",
+		"缩小",
+		"地图缩小",
+		"简要提示",
+		"完全提示"]
+	},
+	"tag_road": {
+		"lexicon": ["文昌阁",
+		"扬子江中路"]
+	},
+	"tag_road_direction": {
+		"lexicon": ["东",
+		"西",
+		"南",
+		"北"]
+	},
+	"tag_phonebook": {
+		"lexicon": ["电话簿",
+		"通信录"]
+	},
+	"tag_dialed_numbers": {
+		"lexicon": ["已拨电话"]
+	},
+	"tag_connected_phone": {
+		"lexicon": ["已接电话"]
+	},
+	"tag_missed_calls": {
+		"lexicon": ["未接电话"]
+	},
+	"tag_album": {
+		"lexicon": ["专辑"]
+	},
+	"tag_query_position": {
+		"lexicon": ["我现在在哪里",
+		"我在那",
+		"我在哪",
+		"我的位置"]
+	}
+}

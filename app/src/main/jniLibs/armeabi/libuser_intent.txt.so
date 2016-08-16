@@ -1,0 +1,176 @@
+{
+	"ent_call": {
+		"condition": ["(HIT(pat_call_with_name) or HIT(pat_call_with_name_and_type) or HIT(pat_call_with_number)) and CVR(50)"],
+		"variable": ["(B::HIT::pat_call_with_name)name=S::VAR::pat_call_with_name::*",
+		"(B::HIT::pat_call_with_name_and_type)name=S::VAR::pat_call_with_name_and_type::*",
+		"(B::HIT::pat_call_with_name_and_type)type=S::VAR::pat_call_with_name_and_type::tag_phone",
+		"(B::HIT::pat_call_with_number)number=S::VAR::pat_call_with_number::digit"]
+	},
+	"ent_call_again": {
+		"condition": ["HIT(pat_call_again) and CVR(50)"]
+	},
+	"ent_call_back": {
+		"condition": ["HIT(pat_call_back) and CVR(50)"]
+	},
+	"ent_query_number": {
+		"condition": ["HIT(pat_query_number_with_name) and CVR(50)"],
+		"variable": ["name=S::VAR::pat_query_number_with_name::*"]
+	},
+	"ent_query_phonebook": {
+		"condition": ["HIT(pat_query_phonebook) and CVR(50)"]
+	},
+	"ent_query_dialed_numbers": {
+		"condition": ["HIT(pat_query_phonebook) and CVR(50)"]
+	},
+	"ent_query_connected_phone": {
+		"condition": ["HIT(pat_query_connected_phone) and CVR(50)"]
+	},
+	"ent_query_missed_calls": {
+		"condition": ["HIT(pat_query_missed_calls) and CVR(50)"]
+	},
+	"ent_search_music_with_song": {
+		"condition": ["HIT(pat_search_music_song) and CVR(50)"],
+		"variable": ["(B::HIT::pat_search_music_song)song=S::VAR::pat_search_music_song::tag_song"]
+	},
+	"ent_search_music_with_singer": {
+		"condition": ["HIT(pat_search_music_singer) and CVR(50)"],
+		"variable": ["(B::HIT::pat_search_music_singer)singer=S::VAR::pat_search_music_singer::tag_singer"]
+	},
+	"ent_search_music_with_singer_and_song": {
+		"condition": ["HIT(pat_search_music_singer_and_song) and CVR(50)"],
+		"variable": ["(B::HIT::pat_search_music_singer_and_song)singer=S::VAR::pat_search_music_singer_and_song::tag_singer",
+		"(B::HIT::pat_search_music_singer_and_song)song=S::VAR::pat_search_music_singer_and_song::tag_song"]
+	},
+	"ent_play_music": {
+		"condition": ["HIT(pat_play_music) and CVR(50)"]
+	},
+	"ent_search_song_type_or_album": {
+		"condition": ["HIT(pat_search_song_type_or_album) and CVR(50)"],
+		"variable": ["(B::HIT::pat_search_song_type_or_album)song_type=S::VAR::pat_search_song_type_or_album::tag_songtype",
+		"(B::HIT::pat_search_song_type_or_album)album=S::VAR::pat_search_song_type_or_album::tag_song"]
+	},
+	"ent_model_music_order": {
+		"condition": ["HIT(pat_model_music_order) and CVR(50)"]
+	},
+	"ent_model_music_loop": {
+		"condition": ["HIT(pat_model_music_loop) and CVR(50)"]
+	},
+	"ent_model_singlecycle": {
+		"condition": ["HIT(pat_model_singlecycle) and CVR(50)"]
+	},
+	"ent_FM_channel_name": {
+		"condition": ["HIT(pat_FM_channel_name) and CVR(50)"],
+		"variable": ["(B::HIT::pat_FM_channel_name)channel=S::VAR::pat_FM_channel_name::tag_fm_channel"]
+	},
+	"ent_FM_channel": {
+		"condition": ["HIT(pat_FM_channel) and CVR(50)"],
+		"variable": ["(B::HIT::pat_FM_channel)channel=S::VAR::pat_FM_channel::digit"]
+	},
+	"ent_play": {
+		"condition": ["HIT(pat_play) and CVR(80)"]
+	},
+	"ent_pause": {
+		"condition": ["HIT(pat_pause) and CVR(80)"]
+	},
+	"ent_next": {
+		"condition": ["HIT(pat_next) and CVR(80)"]
+	},
+	"ent_previous": {
+		"condition": ["HIT(pat_previous) and CVR(80)"]
+	},
+	"ent_open_app": {
+		"condition": ["HIT(pat_open_app) and CVR(50)"],
+		"variable": ["(B::HIT::pat_open_app)app=S::VAR::pat_open_app::tag_app"]
+	},
+	"ent_close_app": {
+		"condition": ["HIT(pat_close_app) and CVR(50)"],
+		"variable": ["(B::HIT::pat_close_app)app=S::VAR::pat_close_app::tag_app"]
+	},
+	"ent_query_help": {
+		"condition": ["HIT(pat_query_help) and CVR(50)"],
+		"variable": ["(B::HIT::pat_query_help)help_type=S::VAR::pat_query_help::tag_helptype"]
+	},
+	"ent_open_airconditioner": {
+		"condition": ["HIT(pat_open_airconditioner) and CVR(50)"]
+	},
+	"ent_close_airconditioner": {
+		"condition": ["HIT(pat_close_airconditioner) and CVR(50)"]
+	},
+	"ent_open_airconditioner_function": {
+		"condition": ["HIT(pat_open_airconditioner_function) and CVR(50)"],
+		"variable": ["(B::HIT::pat_open_airconditioner_function)function=S::VAR::pat_open_airconditioner_function::tag_airconditioner_function"]
+	},
+	"ent_close_airconditioner_function": {
+		"condition": ["HIT(pat_close_airconditioner_function) and CVR(50)"],
+		"variable": ["(B::HIT::pat_close_airconditioner_function)function=S::VAR::pat_close_airconditioner_function::tag_airconditioner_function"]
+	},
+	"ent_temperature_highter": {
+		"condition": ["HIT(pat_temperature_highter) and CVR(80)"]
+	},
+	"ent_temperature_lower": {
+		"condition": ["HIT(pat_temperature_lower) and CVR(80)"]
+	},
+	"ent_wind_highter": {
+		"condition": ["HIT(pat_wind_highter) and CVR(80)"]
+	},
+	"ent_wind_lower": {
+		"condition": ["HIT(pat_wind_lower) and CVR(80)"]
+	},
+	"ent_wind_direction": {
+		"condition": ["(HIT(pat_wind_direction_up) or HIT(pat_wind_direction_down) or HIT(pat_wind_direction_window)) and CVR(50)"],
+		"variable": ["(B::HIT::pat_wind_direction_up)up=\"True\"",
+		"(B::HIT::pat_wind_direction_down)down=\"True\"",
+		"(B::HIT::pat_wind_direction_window)window=\"True\""]
+	},
+	"ent_sound_higher": {
+		"condition": ["HIT(pat_sound_higher) and CVR(50)"],
+		"variable": ["(B::HIT::pat_sound_higher)size=S::VAR::pat_sound_higher::digit"]
+	},
+	"ent_sound_lower": {
+		"condition": ["HIT(pat_sound_lower) and CVR(50)"],
+		"variable": ["(B::HIT::pat_sound_lower)size=S::VAR::pat_sound_lower::digit"]
+	},
+	"ent_query_position": {
+		"condition": ["HIT(pat_query_position) and CVR(50)"]
+	},
+	"ent_query_poi": {
+		"condition": ["HIT(pat_query_poi) and CVR(50)"],
+		"variable": ["(B::HIT::pat_query_poi)poi=S::VAR::pat_query_poi::tag_poi"]
+	},
+	"ent_to_fixplace": {
+		"condition": ["HIT(pat_to_fixplace) and CVR(50)"],
+		"variable": ["(B::HIT::pat_to_fixplace)fixplace=S::VAR::pat_to_fixplace::tag_fixedplace"]
+	},
+	"ent_to_place": {
+		"condition": ["HIT(pat_to_place) and CVR(50)"],
+		"variable": ["(B::HIT::pat_to_place)to=S::VAR::pat_to_place::tag_place"]
+	},
+	"ent_place_to_place": {
+		"condition": ["HIT(pat_place_to_place) and CVR(50)"],
+		"variable": ["(B::HIT::pat_place_to_place)from=S::VAR::pat_place_to_place::tag_place#1",
+		"(B::HIT::pat_place_to_place)to=S::VAR::pat_place_to_place::tag_place#2"]
+	},
+	"ent_map_setup": {
+		"condition": ["HIT(pat_map_setup) and CVR(50)"],
+		"variable": ["(B::HIT::pat_map_setup)setup=S::VAR::pat_map_setup::tag_mapsetup"]
+	},
+	"ent_map_along_facilities": {
+		"condition": ["HIT(pat_map_along_facilities) and CVR(50)"],
+		"variable": ["(B::HIT::pat_map_along_facilities)facilities=S::VAR::pat_map_along_facilities::tag_facilities"]
+	},
+	"ent_map_nearby_facilities": {
+		"condition": ["HIT(pat_map_nearby_facilities) and CVR(50)"],
+		"variable": ["(B::HIT::pat_map_nearby_facilities)facilities=S::VAR::pat_map_nearby_facilities::tag_facilities"]
+	},
+	"ent_map_traffic": {
+		"condition": ["HIT(pat_map_traffic) and CVR(50)"],
+		"variable": ["(B::HIT::pat_map_traffic)road=S::VAR::pat_map_traffic::tag_road",
+		"(S::VAR::pat_map_traffic::tag_road_direction#1~=nil)direction=S::VAR::pat_map_traffic::tag_road_direction#1..S::VAR::pat_map_traffic::tag_road_direction#2"]
+	},
+	"ent_music_singleplay": {
+		"condition": ["HIT(pat_music_singleplay) and CVR(50)"]
+	},
+	"ent_music_shuffle": {
+		"condition": ["HIT(pat_music_shuffle) and CVR(50)"]
+	}
+}
